@@ -1,0 +1,18 @@
+
+
+<style> 
+        body {
+            background-color: #6fb2e9;
+        }
+        </style>
+
+{% block content %}
+<h1 style="background-color:white"> Below Data represent transaction types
+</h1>
+
+{{data | safe}}
+
+<h1 style="background-color:white"> Customer Details
+    </h1>
+    {{data1 | safe}} 
+{% endblock %}
