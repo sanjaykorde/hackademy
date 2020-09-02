@@ -41,7 +41,9 @@ def data():
         #Call google API
 
         rest_api_df = df.copy()
-        GOOGLE_API_KEY = '#INSERT YOUR KEY HERE#' 
+
+        GOOGLE_API_KEY = '##INSERT YOUR KEY HERE' 
+
 
 
         def google_place_api(address_value):
