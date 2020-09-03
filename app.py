@@ -76,7 +76,7 @@ def data():
         #DUMMY DATA FOR CUSTOMER INFORMATION
 
         # intialise data of lists.
-        testdata = {'Sanjay Korde','RM: David Knot'}
+        testdata = df
         
         # Create DataFrame
         data1 = pd.DataFrame(testdata)
