@@ -41,9 +41,7 @@ def data():
         #Call google API
 
         rest_api_df = df.copy()
-
-        GOOGLE_API_KEY = '##INSERT YOUR KEY HERE' 
-
+        GOOGLE_API_KEY = 'AIzaSyCMW_KgfrNaGgKkszJR_dDv6Juz6aRveBQ' 
 
 
         def google_place_api(address_value):
@@ -77,10 +75,10 @@ def data():
 
         # intialise data of lists.
         testdata = df
+
         
         # Create DataFrame
-        data1 = pd.DataFrame(testdata)
-
+        data1 = testdata
         return render_template('data.html', data=rest_api_df.to_html(), data1=data1.to_html())
 
 
